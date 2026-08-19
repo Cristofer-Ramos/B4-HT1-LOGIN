@@ -23,7 +23,7 @@
          <children>
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../resources/images/Usuario.jpg" />
+                  <Image url="@../resources/images/Usuario-Sin-Fondo.png" />
                </image></ImageView>
             <Label styleClass="etiqueta" text="Nombre de Usuario" />
             <TextField styleClass="campo" />

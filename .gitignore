@@ -1,3 +1,7 @@
+src/org/cristoferramos/system/config/Enviroment.java
+build/*
+dist/*
+
 # Compiled class file
 *.class
 

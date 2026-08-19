@@ -26,8 +26,15 @@ public class ConexionDB {
             System.out.println("Error de conexion sql");
         }catch(Exception e){
             System.out.println("Error padre" + e.getMessage());
-        }
-        
+        } 
+    }
+
+    public Connection getConnection() {
+        return connection;
+    }
+
+    public void setConnection(Connection connection) {
+        this.connection = connection;
     }
     
     public static ConexionDB getInstanciaConexionDB(){
